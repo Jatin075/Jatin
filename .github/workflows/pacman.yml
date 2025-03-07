@@ -34,7 +34,7 @@ jobs:
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
           publish_dir: .
           publish_branch: output
           commit_message: "Update Pac-Man animation [skip ci]"
