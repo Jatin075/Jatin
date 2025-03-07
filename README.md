@@ -58,7 +58,9 @@ En esta sección, compartiré mis proyectos relacionados con el desarrollo web y
 ---
 
 ## 🎮 Mi actividad en GitHub:
-![Pac-Man Eating Contributions](https://ghchart.rshah.org/Jatin075)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Jatin075/output/pacman.gif" alt="Pac-Man comiendo commits">
+</p>
 
 ---
 
