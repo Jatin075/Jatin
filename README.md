@@ -1,7 +1,7 @@
 # ¡Hola, soy Jatin Tehlyani! 👋
 
 ### Estudiante de DAW (Desarrollo de Aplicaciones Web) | Titulado en SMX (Sistemas Microinformáticos y Redes)  
-Apasionado de la tecnología, los videojuegos y en búsqueda de nuevas pasiones.
+Me apasiona resolver problemas y crear soluciones eficaces. En mi tiempo libre, me gusta jugar a videojuegos y experimentar con nuevos lenguajes de programación.
 
 ---
 
