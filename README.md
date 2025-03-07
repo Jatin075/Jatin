@@ -42,7 +42,7 @@ Me apasiona resolver problemas y crear soluciones eficaces. En mi tiempo libre, 
       <a href="https://jjatin.wixsite.com/digitalportfolio" target="_blank">
         <img src="https://img.shields.io/static/v1?message=Portfolio&logo=kdenlive&label=&color=555555&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="portfolio logo"/>
       </a>
-      <a href="https://github.com/Jatin075/Jatin" target="_blank">
+      <a href="https://github.com/Jatin075" target="_blank">
         <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"/>
       </a>
     </div>
