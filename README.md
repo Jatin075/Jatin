@@ -58,9 +58,7 @@ En esta sección, compartiré mis proyectos relacionados con el desarrollo web y
 ---
 
 ## 🎮 Mi actividad en GitHub:
-<picture>
-  <img src="https://raw.githubusercontent.com/Jatin075/Jatin075/main/assets/pacman1.gif" alt="Pac-Man animado comiendo commits" width="500"/>
-</picture>
+![Pac-Man](assets/pacman.svg)
 ---
 
 > [!NOTE]
