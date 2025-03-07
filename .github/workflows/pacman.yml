@@ -32,14 +32,14 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global credential.helper store
-          echo "https://${MY_PERSONAL_ACCESS_TOKEN}@github.com" > ~/.git-credentials
+          echo "https://${GITHUB_TOKEN}@github.com" > ~/.git-credentials
         env:
-          MY_PERSONAL_ACCESS_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Usamos el GITHUB_TOKEN de GitHub Actions
           publish_dir: .
           publish_branch: output
           commit_message: "Update Pac-Man animation [skip ci]"
