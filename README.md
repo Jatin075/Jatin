@@ -55,11 +55,5 @@ Me apasiona resolver problemas y crear soluciones eficaces. En mi tiempo libre, 
 ### Mis proyectos de desarrollo web y aplicaciones:  
 En esta sección, compartiré mis proyectos relacionados con el desarrollo web y aplicaciones. ¡Próximamente más detalles y enlaces!
 
----
-
-## 🎮 Mi actividad en GitHub:
-![Pac-Man](assets/pacman.svg)
----
-
 > [!NOTE]
 > ¡Gracias por visitar mi perfil! Siempre estoy abierto a colaboraciones y nuevos proyectos. 😊
