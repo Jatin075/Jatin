@@ -58,8 +58,11 @@ En esta sección, compartiré mis proyectos relacionados con el desarrollo web y
 ---
 
 ## 🎮 Mi actividad en GitHub:
-<img src="https://raw.githubusercontent.com/Jatin075/TU-REPO/main/assets/pacman1.gif" alt="Pac-Man animado comiendo commits" width="500"/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vextremera/vextremera/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vextremera/vextremera/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Jatin075/TU-REPO/main/assets/pacman1.gif" alt="Pac-Man animado comiendo commits" width="500"/>
+</picture>
 ---
 
 > [!NOTE]
