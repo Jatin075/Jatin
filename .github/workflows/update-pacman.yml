@@ -1,0 +1,29 @@
+name: Update Pac-Man Animation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-pacman:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Update Pac-Man Animation
+      run: |
+        echo "Updating Pac-Man SVG"
+        # Aquí es donde pondrías un script para actualizar el SVG si es necesario
+        # Por ejemplo, podrías usar un script para mover la boca de Pac-Man en cada commit.
+        echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><circle cx="50" cy="50" r="40" fill="yellow"><animate attributeName="d" values="M50,50 L90,50 A40,40 0 1,1 50,50" dur="0.5s" keyTimes="0;1" repeatCount="indefinite"/></circle></svg>' > assets/pacman.svg
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add assets/pacman.svg
+        git commit -m "Update Pac-Man SVG"
+        git push
